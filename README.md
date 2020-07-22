@@ -1,4 +1,5 @@
 # website
 my personal website
 
-All images belong to me, dj0rdj3.
+#images
+All photos are licensed under <https://creativecommons.org/licenses/by/4.0/>

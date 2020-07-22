@@ -7,4 +7,5 @@ const RandomImage = ImageArray[RandomNumber];
 
 // Namestamo CSS od body (backgroundImage) da bude url(bg/RandomImage[npr img3.JPG])
 document.body.style.background = "linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(bg/" + RandomImage + ")";
-document.body.style.backgroundPosition = "center";
+document.body.style.backgroundSize = "cover";
+document.body.style.backgroundRepeat = "no-repeat";
