@@ -6,4 +6,5 @@ const RandomNumber = Math.floor(Math.random() * 13);
 const RandomImage = ImageArray[RandomNumber];
 
 // Namestamo CSS od body (backgroundImage) da bude url(bg/RandomImage[npr img3.JPG])
-document.body.style.backgroundImage = "url(bg/" + RandomImage + ")";
+document.body.style.background = "linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(bg/" + RandomImage + ")";
+document.body.style.backgroundPosition = "center";
