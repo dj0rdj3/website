@@ -1,3 +1,5 @@
+html, body {min-height: 100%}
+
 body {
     margin: 0;
     padding: 0;
@@ -5,6 +7,12 @@ body {
     color: white;
     animation: fadein 1.5s;
     -webkit-animation: fadein 1.5s;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 h1 {
