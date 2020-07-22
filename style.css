@@ -38,14 +38,14 @@ p {
 .bar a {
     width: 100px;
     display: block;
-    background-color: #2eb900;
+    background-color: #1e7900;
     margin: 10px;
-    box-shadow: 0 0 5px black inset;
     border-radius: 5px;
     text-align: center;
     line-height: 46px;
-    padding-left: 10px;
-    padding-right: 10px;
+    /* padding-left i right mozes da turis u jedno - padding. 0 je za gore i dole a 10px za levo i desno */
+    padding: 0 10px;
+    transition: 200ms ease;
 }
 
 .bar a,
@@ -54,6 +54,13 @@ p {
 .bar a:visited {
     text-decoration: none;
     color: white;
+}
+
+/* Animacija da se pojavi box-shadow kada hoverujes. Meni lepse izgleda tako :D */
+
+.bar a:hover {
+    box-shadow: 0 0 10px black inset;
+    transition: 200ms ease;
 }
 
 #contact {
@@ -71,10 +78,11 @@ p {
     z-index: 1;
     padding: 10px;
     background-color: #444;
-    cursor: default;
+    cursor: pointer;
     text-align: center;
     border-radius: 10px 10px 0 0;
-    margin: -20px -20px 20 -20px;
+    /* Stavio si margine -20px -20px **20** -20px i zato nije htelo da mi rade margine. Zbog kompatibilnosti kod browsera, samo kod 0 koristi bez icega jer browseri ne znaju dal je margina 20px/em/rem/vw/vh... */
+    margin: -20px -20px 20px -20px;
     text-shadow: 0 0 2px white;
 }
 
