@@ -72,6 +72,21 @@ p {
     transition: 200ms ease;
 }
 
+.cc,
+.cc a,
+.cc a:hover,
+.cc a:active,
+.cc a:visited {
+    margin: 0 auto;
+    position: fixed;
+    bottom: 5px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 10px;
+    text-decoration: none;
+    color: white;
+}
+
 #contact {
     top: -100%;
     left: -100%;
