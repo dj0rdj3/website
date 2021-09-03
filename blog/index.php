@@ -24,9 +24,9 @@ $bg = $images[array_rand($images)];
 <body style="background-image: url('<?php echo $bg ?>');">
     <div class="wrapper">
         <nav id="blog-nav">
-            <a href=".." id="about-link">About</a>
-            <a href="../photos" id="photos-link">Photos</a>
-            <a href="." id="blog-link">Blog</a>
+            <a href="/" id="about-link">About</a>
+            <a href="/photos" id="photos-link">Photos</a>
+            <a href="/blog" id="blog-link">Blog</a>
         </nav>
         <h1>Posts</h1>
         <div class="content">
